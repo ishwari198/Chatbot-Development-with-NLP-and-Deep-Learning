@@ -1,0 +1,32 @@
+{"intents" : [
+  {"tag" :  "greetings",
+    "patterns" : ["hello","hi","good day","greetings","what's up","how is it going"],
+    "responses" : ["Hello","Hey!","what can I do for you ?"],
+    "context_set": ""
+  },
+   {"tag": "goodbye",
+    "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+    "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+    "context_set": ""
+  },
+  {"tag" : "name",
+    "patterns": ["what is your name","what should I call you","whats your name","who are you ?"],
+    "responses": ["You can call me AI","I'm Neural","I'm AI the assistant of florian"],
+    "context_set": ""
+  },
+  {"tag": "programming",
+    "patterns": ["What is progamming?", "What is coding?", "Tell me about programming", "Tell me about coding", "What is software development?"],
+    "responses": ["Programming, coding or software development, means writing computer code to automate tasks."],
+    "context_set": ""
+  },
+  {"tag": "resource",
+    "patterns": ["Where can I learn to code?", "Best way to learn to code", "How can I learn programming", "Good programming resources", "Can you recommend good coding resources?"],
+    "responses": ["Check out the NeuralNine YouTube channel and The Python Bible series (7 in 1)."],
+    "context_set": ""
+  },
+  {"tag": "stocks",
+    "patterns": ["What are my stocks?", "Which stocks do I own?", "Show my stock portfolio"],
+    "responses": ["Here are your stocks!"],
+    "context_set": ""
+  }
+]}
